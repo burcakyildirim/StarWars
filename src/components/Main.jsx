@@ -124,7 +124,7 @@ function Main() {
                 onClick={() => handleStarshipClick(starship)}
               >
                 <img
-                  src="./millenium.webp"
+                  src="public/millenium.webp"
                   className="starship-image"
                   alt={starship.name}
                 />
