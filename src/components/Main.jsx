@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import './Main.css';
 import axios from 'axios';
+import millenium from "./millenium.webp"
 
 function Main() {
   const [starships, setStarships] = useState([]);
@@ -124,7 +125,7 @@ function Main() {
                 onClick={() => handleStarshipClick(starship)}
               >
                 <img
-                  src="millenium.webp"
+                  src={millenium}
                   className="starship-image"
                   alt={starship.name}
                 />
